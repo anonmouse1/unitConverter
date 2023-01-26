@@ -1,3 +1,47 @@
 body {
-    margin: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main {
+  background-color: #83bcff;
+  color: #f9f9ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input {
+  width: 200px;
+  height: 200px;
+  font-size: 100px;
+  text-align: center;
+  background-color: #83bcff;
+  color: #f9f9ed;
+  border: solid 4px #f9f9ed;
+  border-radius: 5%;
+}
+
+#input:active {
+  border: solid 4px #f9f9ed;
+}
+#convert-btn {
+  padding: 10px 15px;
+  width: 150px;
+  margin: 30px 10px;
+  background-color: #f9f9ed;
+  border: 3px solid #f9f9ed;
+  border-radius: 5px;
+}
+
+#convert-btn:hover {
+  border: 3px solid #dbf4a7;
+}
+
+.results {
+  background-color: #f9f9ed;
+}
+
+.card {
+  color: #83bcff;
 }
