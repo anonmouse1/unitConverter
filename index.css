@@ -40,8 +40,15 @@ body {
 
 .results {
   background-color: #f9f9ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card {
   color: #83bcff;
+  background-color: white;
+  margin: 20px 50px;
+  padding: 20px 40px;
+  border-radius: 5%;
 }
