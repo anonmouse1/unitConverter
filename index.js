@@ -19,7 +19,7 @@ function convert() {
   //volume conversion
   volumeContent.textContent = ` ${userInput} liters = ${(
     userInput * 0.264
-  ).toFixed(3)} | ${userInput} gallons = ${(userInput / 0.264).toFixed(
+  ).toFixed(3)} gallons | ${userInput} gallons = ${(userInput / 0.264).toFixed(
     3
   )} liters `;
   //mass conversion
@@ -27,3 +27,10 @@ function convert() {
     3
   )} pounds | ${userInput} pounds = ${(userInput / 2.204).toFixed(3)} kilos`;
 }
+
+//adjust input size according to value entered
+
+const input = document.getElementById("input");
+input.addEventListener("input", function () {
+  input.style.width = input.value.length + 1 + "ch";
+});
